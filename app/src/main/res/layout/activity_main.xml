@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_rl"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/top_heading_tv"
+        android:text="@string/uni_name"
+        android:textSize="20sp"
+        android:textColor="@color/uni_title_color"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/ucp_logo_iv"
+        android:src="@drawable/uni_logo"
+        android:layout_below="@id/top_heading_tv"
+        android:layout_centerInParent="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inner_rl_1"
+        android:layout_below="@id/ucp_logo_iv"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/cs_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/cs_dept_btn_text" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/se_btn"
+            android:text="@string/se_dept_btn_text"
+            android:layout_toEndOf="@id/cs_btn"
+            android:layout_marginEnd="10dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/adp_btn"
+            android:text="@string/adp_dept_btn_text"
+            android:layout_toEndOf="@id/se_btn"
+            />
+
+    </RelativeLayout>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/footer_tv"
+       android:layout_alignParentBottom="true"
+       android:text="@string/power_by_summer_class_tv"
+       android:gravity="center"
+       android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

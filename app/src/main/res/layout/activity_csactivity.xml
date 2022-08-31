@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cs_color"
+    tools:context=".CSActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/cs_title"
+        android:text="@string/cs_department_text"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cs_registration_title_tv"
+        android:text="@string/register_yourself_text"
+        android:layout_below="@id/cs_title"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/cs_student_name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cs_registration_title_tv"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="@string/enter_your_name_text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cs_student_roll_et"
+        android:layout_below="@id/cs_student_name_et"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="@string/enter_your_roll_no_text"
+        android:inputType="number"
+        android:maxLength="5"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cs_register_btn"
+        android:layout_below="@id/cs_student_roll_et"
+        android:layout_centerInParent="true"
+        android:text="@string/register_text"
+        android:backgroundTint="#00BCD4"/>
+
+</RelativeLayout>

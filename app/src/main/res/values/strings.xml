@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SummerApp</string>
+    <string name="uni_name">University of Central Punjab</string>
+    <string name="cs_dept_btn_text">CS Dept</string>
+    <string name="se_dept_btn_text">SE Dept</string>
+    <string name="adp_dept_btn_text">ADP Dept</string>
+    <string name="power_by_summer_class_tv">Power by Summer Class</string>
+    <string name="cs_department_text">CS Department</string>
+    <string name="se_department_text">SE Department</string>
+    <string name="adp_department_text">ADP Department</string>
+    <string name="register_yourself_text">Register Yourself</string>
+    <string name="enter_your_name_text">Enter your name</string>
+    <string name="enter_your_roll_no_text">Enter your roll no</string>
+    <string name="register_text">Register</string>
+    <string name="registration_completed_text">Registration Completed</string>
+</resources>

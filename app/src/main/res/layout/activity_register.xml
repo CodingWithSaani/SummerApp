@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00897B"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_confirmation_message_tv"
+        android:text="@string/registration_completed_text"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_name_tv"
+        android:layout_below="@id/reg_confirmation_message_tv"
+        android:text="Student Name"
+        android:textSize="15sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_roll_tv"
+        android:layout_below="@id/reg_name_tv"
+        android:text="Student Roll No"
+        android:textSize="15sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>
