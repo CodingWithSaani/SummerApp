@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:id="@+id/main_rl"
     tools:context=".MainActivity">
 
@@ -58,11 +59,20 @@
             />
 
     </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adapter_list_view_activity_btn"
+        android:layout_below="@id/inner_rl_1"
+        android:text="@string/adapter_list_view_activity_text"
+        android:layout_margin="10dp"
+        />
 
    <TextView
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:id="@+id/footer_tv"
+       android:textColor="@color/uni_title_color"
        android:layout_alignParentBottom="true"
        android:text="@string/power_by_summer_class_tv"
        android:gravity="center"

@@ -13,4 +13,5 @@
     <string name="enter_your_roll_no_text">Enter your roll no</string>
     <string name="register_text">Register</string>
     <string name="registration_completed_text">Registration Completed</string>
+    <string name="adapter_list_view_activity_text">Adapter List View Activity</string>
 </resources>
