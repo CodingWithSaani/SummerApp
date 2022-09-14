@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "658251723133",
+    "project_id": "summer22app",
+    "storage_bucket": "summer22app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658251723133:android:9918e7ddda2863c9911c14",
+        "android_client_info": {
+          "package_name": "com.tutorials180.summerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658251723133-c3133p3rkp4op995e5edv0gu35mks6hr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXgA6VUYwTp08aU3brcq-PG4RqcQCM-rc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658251723133-c3133p3rkp4op995e5edv0gu35mks6hr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
