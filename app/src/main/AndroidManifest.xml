@@ -14,7 +14,7 @@
         android:theme="@style/Theme.SummerApp"
         tools:targetApi="31">
         <activity
-            android:name=".Firestore"
+            android:name=".Firebase.Firestore"
             android:exported="false" />
         <activity
             android:name=".Adapters.AdapterListViewActivity"

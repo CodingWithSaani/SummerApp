@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 import com.tutorials180.summerapp.Adapters.AdapterListViewActivity
+import com.tutorials180.summerapp.Firebase.Firestore
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,6 +16,8 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var seBtn:Button
     private lateinit var adpBtn:Button
+
+    private lateinit var firestoreBtn:Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,6 +38,7 @@ class MainActivity : AppCompatActivity() {
         seBtn= findViewById(R.id.se_btn)
         adpBtn= findViewById(R.id.adp_btn)
 
+        firestoreBtn = findViewById(R.id.firestore_activity_btn)
         csBtn.setOnClickListener {
             Toast.makeText(this,"CS Button is clicked",Toast.LENGTH_SHORT).show()
 
@@ -49,6 +53,10 @@ class MainActivity : AppCompatActivity() {
         adpBtn.setOnClickListener {
             Toast.makeText(this,"ADP Button is clicked",Toast.LENGTH_SHORT).show()
             startActivity(Intent(this,ADPActivity::class.java))
+        }
+
+        firestoreBtn.setOnClickListener {
+            startActivity(Intent(this,Firestore::class.java))
         }
     }
 
